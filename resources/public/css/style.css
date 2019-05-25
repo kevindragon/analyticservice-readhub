@@ -1,0 +1,28 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+#app {
+    margin: 20px;
+}
+
+#search-box {
+    width: 600px;
+    display: flex;
+}
+#search-box input {
+    flex: 1;
+    padding: 5px;
+}
+#search-box button.index {
+    margin-left: 10px;
+}
+
+.tips {
+    color: gray;
+}
+
+#result .doc {
+    margin-top: 20px;
+}
